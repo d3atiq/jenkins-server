@@ -5,7 +5,7 @@
   apt:
     name: openjdk-8-jre-headless
     state: present
- 
+
 - name: Add Jenkins package signing key
   become: true
   apt_key:
